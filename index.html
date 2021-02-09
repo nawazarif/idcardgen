@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nawaz ID Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div >
+        <h1 class="heading">ID Card Generator</h1>
+    </div>
+
+<div id="inpdata" class="dataget">
+
+    <div >
+        <input placeholder="Enter Student Name" type="text" class="inp" name="" id="naamdo">
+    </div>
+    
+    <div>
+        <input placeholder="Enter Father / Guardian Name" class="inp" type="text" name="" id="fatherName">
+    </div>
+    
+    <div>
+        <input placeholder="Enter Class" type="text" class="inp" name="" id="className">
+    </div>
+    
+    <div>
+        <input placeholder="Enter Ph. no. In Cas of Emergency" class="inp" type="text" name="" id="phone">
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <button onclick="schoolCard()" class="idCardbutton" >Generate ID Card</button>
+</div>
+ 
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="idCard" id="idCard">
+
+    <div class="innercard">
+    <!-- for Id Card -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div id="idnumber" class="idcardnaw">
+        <p>Student ID: </p> &nbsp;
+        <p id="id"></p>
+    </div>
+
+    <!-- For Student name -->
+
+    <div class="idcardnaw" id="StuNaaaam"> 
+        <p>Student Name: </p>&nbsp; 
+    </div>
+
+    <!-- for Father Name -->
+
+<div class="idcardnaw" id="FName">
+    <p>Father / Guardian Name: </p> &nbsp;
+</div>
+   
+<!-- For Class -->
+
+<div class="idcardnaw" id="stuClass">
+   <p>Class: </p>&nbsp;
+</div>
+
+<!-- For Call -->
+
+<div class="idcardnaw" id="emCall">
+   <p>Emergency Call: </p> &nbsp;
+</div>
+</div>
+</div>
+
+
+
+
+<!-- <button onclick="schoolCard()">add to check in console</button> -->
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
